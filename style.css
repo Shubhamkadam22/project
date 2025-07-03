@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Garamond', Serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.registerbody{
+  margin-top: 10px;
+  margin:2%;
+  background: #d5d5d5;
+  padding: 50px;
+  border-radius: 12px;
+  align-items: center;
+  
+}
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #398cf9;
+  color: white;
+  border-radius: 5px;
+
+}
+.name-row {
+  display: flex;
+  gap: 10px; 
+}
+.cheakBox{
+  margin-right: 1rem;
+}
